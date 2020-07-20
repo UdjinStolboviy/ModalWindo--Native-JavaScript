@@ -16,5 +16,5 @@ ModalWindo--Native-JavaScript
     close.addEventListener('click', function () {
         overlay.style.display = 'none';
         more.classList.remove('.more-splash');
-        document.body.style.overflow = ''; // струрает  приедедущае  свойство
+        document.body.style.overflow = ''; // стирает    свойство
     });
